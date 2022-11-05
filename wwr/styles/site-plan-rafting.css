@@ -2,29 +2,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;700&family=Trispace:wght@300;400;500;700&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #B5FFE1   ;
+  --secondary-color: #93E5AB ;
+  --accent1-color: #1D102E;
+  --accent2-color: #f5f5f5;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: 'Noto Sans Mono', monospace;
+  --paragraph-font: 'Trispace', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --headline-color-on-white: #301A4B;  /* headlines on a white background */ 
+  --headline-color-on-color: #f5f5f5; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #301A4B; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #f5f5f5; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #301A4B  ;
+  --nav-link-color: #301A4B;
+  --nav-background-color: #93E5AB;
+  --nav-hover-link-color: #301A4B;
+  --nav-hover-background-color: #B5FFE1;
 }
 
 
@@ -89,9 +89,11 @@ p {
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: var(--paragraph-color-on-color);
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: var(--paragraph-color-on-color);
 }
 p.colored {
   background-color: var(--paragraph-background-color);

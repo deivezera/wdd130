@@ -319,3 +319,42 @@ main section img {
     margin-top: 25px;
   }
 }
+
+/* River page css */
+
+.rivers {
+  padding: 32px;
+}
+.rivers h1 {
+  margin-bottom: 40px;
+  margin-top: 62px;
+}
+.river-container {
+  margin: 32px 0;
+}
+.river-container h2 {
+  margin: 16px 0;
+}
+.river-flex {
+  display: flex;
+  margin-top: 16px 0;
+  gap: 16px;
+}
+.river-text p:first-child {
+  margin-top: 0;
+}
+.river-image img {
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 900px) {
+  .river-flex {
+    display: block;
+    margin-top: 16px 0;
+    gap: 16px;
+  }
+  .river-image img {
+    width: 100%;
+  }
+
+}

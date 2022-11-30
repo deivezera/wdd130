@@ -337,7 +337,7 @@ main section img {
 }
 .river-flex {
   display: flex;
-  margin-top: 16px 0;
+  margin: 16px 0;
   gap: 16px;
 }
 .river-text p:first-child {
@@ -350,7 +350,7 @@ main section img {
 @media screen and (max-width: 900px) {
   .river-flex {
     display: block;
-    margin-top: 16px 0;
+    margin: 16px 0;
     gap: 16px;
   }
   .river-image img {

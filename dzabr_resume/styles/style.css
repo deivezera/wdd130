@@ -235,6 +235,9 @@ footer img:active {
 .contact-img p {
   margin: 0;
 }
+.waves {
+  width: 100%;
+}
 
 
 @media screen and (max-width: 1200px) {
